@@ -1,0 +1,57 @@
+{
+  "generated_at_utc": "2026-04-14T14:03:26.369433+00:00",
+  "sources": {
+    "advbench_harmful_behaviors": {
+      "url": "https://raw.githubusercontent.com/llm-attacks/llm-attacks/main/data/advbench/harmful_behaviors.csv",
+      "raw_file": "datasets/raw/advbench_harmful_behaviors_raw.csv",
+      "raw_sha256": "6cd1a5c63c07610d7eb67307772ee5606017ee950b5770ab288a2c487489d3e1",
+      "source_dataset": "advbench",
+      "prompt_role": "harmful"
+    },
+    "harmbench_standard_malicious": {
+      "url": "https://raw.githubusercontent.com/centerforaisafety/HarmBench/main/data/behavior_datasets/harmbench_behaviors_text_test.csv",
+      "raw_file": "datasets/raw/harmbench_behaviors_text_test_raw.csv",
+      "raw_sha256": "75d257b3e7428c52eb7b0154318f455af3e01b09a3794b5e2f3d36054f3c0e29",
+      "source_dataset": "harmbench",
+      "prompt_role": "harmful"
+    },
+    "jbb_harmful_behaviors": {
+      "url": "https://huggingface.co/datasets/JailbreakBench/JBB-Behaviors/resolve/main/data/harmful-behaviors.csv",
+      "raw_file": "datasets/raw/jbb_harmful_behaviors_raw.csv",
+      "raw_sha256": "4a8ec6832056b631eb092dccc60d37a61c3d441268268888b3d006288afeffa1",
+      "source_dataset": "jbb-behaviors",
+      "prompt_role": "harmful"
+    },
+    "jbb_benign_behaviors": {
+      "url": "https://huggingface.co/datasets/JailbreakBench/JBB-Behaviors/resolve/main/data/benign-behaviors.csv",
+      "raw_file": "datasets/raw/jbb_benign_behaviors_raw.csv",
+      "raw_sha256": "3cda234d21a991fa309bbfea4b6d9dae31ccdf8e9d452424b6a983e4fdc33468",
+      "source_dataset": "benign-control",
+      "prompt_role": "benign_control"
+    }
+  },
+  "outputs": {
+    "advbench_harmful_behaviors": {
+      "path": "datasets/advbench_harmful_behaviors.csv",
+      "rows": 520
+    },
+    "harmbench_standard_malicious": {
+      "path": "datasets/harmbench_standard_malicious.csv",
+      "rows": 317
+    },
+    "jbb_harmful_behaviors": {
+      "path": "datasets/jbb_behaviors.csv",
+      "rows": 100
+    },
+    "jbb_benign_behaviors": {
+      "path": "datasets/benign_controls.csv",
+      "rows": 100
+    },
+    "combined_prompt_set": {
+      "path": "temporal_alignment_prompt_set.csv",
+      "rows": 1019,
+      "harmful_rows": 919,
+      "benign_rows": 100
+    }
+  }
+}
