@@ -1,0 +1,21 @@
+{
+  "base_k": 2,
+  "rows": [
+    {
+      "stability_k": 1,
+      "median_sat_delta_direct_vs_s2c": 0.0,
+      "sign_match": true
+    },
+    {
+      "stability_k": 2,
+      "median_sat_delta_direct_vs_s2c": 0.0,
+      "sign_match": true
+    },
+    {
+      "stability_k": 3,
+      "median_sat_delta_direct_vs_s2c": 0.0,
+      "sign_match": true
+    }
+  ],
+  "all_sign_match": true
+}

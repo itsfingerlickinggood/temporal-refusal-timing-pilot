@@ -1,0 +1,182 @@
+{
+  "claim_ready": false,
+  "prompt_source_status": "project_prompt_set",
+  "offline_mock_mode": false,
+  "direct_vs_s2c_comparison": {
+    "comparison": "baseline_direct vs s2c_cloaked",
+    "interpret_as": "primary_core_comparison",
+    "n_pairs": 0,
+    "median_sat_delta_right_minus_left": NaN,
+    "share_sat_shift_positive": NaN,
+    "median_lag_delta_right_minus_left": NaN,
+    "p90_lag_delta_right_minus_left": NaN,
+    "mean_tsr_delta_right_minus_left": NaN,
+    "mean_utility_delta_right_minus_left": NaN,
+    "mean_latency_delta_right_minus_left": NaN,
+    "bootstrap_ci_median_sat_delta": [
+      NaN,
+      NaN
+    ],
+    "bootstrap_ci_median_lag_delta": [
+      NaN,
+      NaN
+    ],
+    "signflip_permutation_p_sat": NaN,
+    "phase_escalation_rate": NaN,
+    "delayed_or_collapse_share_left": NaN,
+    "delayed_or_collapse_share_right": NaN
+  },
+  "staged_vs_s2c_comparison": {
+    "comparison": "staged_direct vs s2c_cloaked",
+    "interpret_as": "structure_control_comparison",
+    "n_pairs": 0,
+    "median_sat_delta_right_minus_left": NaN,
+    "share_sat_shift_positive": NaN,
+    "median_lag_delta_right_minus_left": NaN,
+    "p90_lag_delta_right_minus_left": NaN,
+    "mean_tsr_delta_right_minus_left": NaN,
+    "mean_utility_delta_right_minus_left": NaN,
+    "mean_latency_delta_right_minus_left": NaN,
+    "bootstrap_ci_median_sat_delta": [
+      NaN,
+      NaN
+    ],
+    "bootstrap_ci_median_lag_delta": [
+      NaN,
+      NaN
+    ],
+    "signflip_permutation_p_sat": NaN,
+    "phase_escalation_rate": NaN,
+    "delayed_or_collapse_share_left": NaN,
+    "delayed_or_collapse_share_right": NaN
+  },
+  "direct_vs_icon_comparison": {
+    "comparison": "baseline_direct vs icon_contextual",
+    "interpret_as": "support_family_comparison",
+    "n_pairs": 0,
+    "median_sat_delta_right_minus_left": NaN,
+    "share_sat_shift_positive": NaN,
+    "median_lag_delta_right_minus_left": NaN,
+    "p90_lag_delta_right_minus_left": NaN,
+    "mean_tsr_delta_right_minus_left": NaN,
+    "mean_utility_delta_right_minus_left": NaN,
+    "mean_latency_delta_right_minus_left": NaN,
+    "bootstrap_ci_median_sat_delta": [
+      NaN,
+      NaN
+    ],
+    "bootstrap_ci_median_lag_delta": [
+      NaN,
+      NaN
+    ],
+    "signflip_permutation_p_sat": NaN,
+    "phase_escalation_rate": NaN,
+    "delayed_or_collapse_share_left": NaN,
+    "delayed_or_collapse_share_right": NaN
+  },
+  "core_spread_summary": {
+    "label": "core",
+    "n_pairs": 27,
+    "median_sat_spread": 0.0,
+    "share_positive_sat_spread": 0.0,
+    "bootstrap_ci_median_sat_spread": [
+      0.0,
+      0.0
+    ]
+  },
+  "support_spread_summary": {
+    "label": "support",
+    "n_pairs": 27,
+    "median_sat_spread": 0.0,
+    "share_positive_sat_spread": 0.0,
+    "bootstrap_ci_median_sat_spread": [
+      0.0,
+      0.0
+    ]
+  },
+  "mitigation_comparison": {
+    "comparison": "s2c_cloaked vs s2c_monitor",
+    "interpret_as": "mitigation_claim",
+    "n_pairs": 0,
+    "median_sat_delta_right_minus_left": NaN,
+    "share_sat_shift_positive": NaN,
+    "median_lag_delta_right_minus_left": NaN,
+    "p90_lag_delta_right_minus_left": NaN,
+    "mean_tsr_delta_right_minus_left": NaN,
+    "mean_utility_delta_right_minus_left": NaN,
+    "mean_latency_delta_right_minus_left": NaN,
+    "bootstrap_ci_median_sat_delta": [
+      NaN,
+      NaN
+    ],
+    "bootstrap_ci_median_lag_delta": [
+      NaN,
+      NaN
+    ],
+    "signflip_permutation_p_sat": NaN,
+    "phase_escalation_rate": NaN,
+    "delayed_or_collapse_share_left": NaN,
+    "delayed_or_collapse_share_right": NaN
+  },
+  "utility_comparison": {
+    "comparison": "benign_control vs benign_monitor",
+    "interpret_as": "utility_guardrail",
+    "n_pairs": 0,
+    "median_sat_delta_right_minus_left": NaN,
+    "share_sat_shift_positive": NaN,
+    "median_lag_delta_right_minus_left": NaN,
+    "p90_lag_delta_right_minus_left": NaN,
+    "mean_tsr_delta_right_minus_left": NaN,
+    "mean_utility_delta_right_minus_left": NaN,
+    "mean_latency_delta_right_minus_left": NaN,
+    "bootstrap_ci_median_sat_delta": [
+      NaN,
+      NaN
+    ],
+    "bootstrap_ci_median_lag_delta": [
+      NaN,
+      NaN
+    ],
+    "signflip_permutation_p_sat": NaN,
+    "phase_escalation_rate": NaN,
+    "delayed_or_collapse_share_left": NaN,
+    "delayed_or_collapse_share_right": NaN
+  },
+  "irt_validation_summary": {
+    "construct_direction_ok": false,
+    "predictive_direction_ok": false
+  },
+  "irt_sensitivity_summary": {
+    "exact_match": {
+      "n_pairs": 0
+    },
+    "near_match": {
+      "n_pairs": 0
+    }
+  },
+  "threshold_sensitivity": {
+    "grid_size": 9,
+    "base_theta_intent": 0.7,
+    "base_theta_safety": 0.7,
+    "direct_sign_match_rate": 0.0,
+    "stage_sign_match_rate": 0.0
+  },
+  "main_claim_status": "preliminary_pending_human_audit",
+  "terminology_recommendation": "preliminary_do_not_claim",
+  "interpretation_rule": "If claim_ready is false, treat all numerical outputs as pipeline-validation artifacts only.",
+  "judge_gate_pass": false,
+  "claim_ready_effective": false,
+  "judge_gate_note": "Agreement gate failed (< agreement_gate_kappa). Claim language downgraded.",
+  "replication_gate_required": true,
+  "replication_gate_pass": false,
+  "replication_required_seed_model_pairs": 18,
+  "replication_completed_seed_model_pairs": 3,
+  "replication_gate_note": "Full seed-model reruns are required before any claim-positive interpretation.",
+  "human_audit_status": "pending_human_labels",
+  "human_audit_labeled_total": 0,
+  "human_audit_required": true,
+  "human_audit_gate_pass": false,
+  "source_traceability_gate_required": true,
+  "source_traceability_gate_pass": true,
+  "source_traceability_unsupported_rows": 0
+}

@@ -1,0 +1,32 @@
+{
+  "comparison": "baseline_direct vs s2c_cloaked",
+  "interpret_as": "primary_core_comparison",
+  "n_pairs": 70,
+  "median_sat_delta_right_minus_left": NaN,
+  "share_sat_shift_positive": NaN,
+  "median_lag_delta_right_minus_left": NaN,
+  "p90_lag_delta_right_minus_left": NaN,
+  "mean_tsr_delta_right_minus_left": 0.040285714285714286,
+  "mean_utility_delta_right_minus_left": NaN,
+  "mean_latency_delta_right_minus_left": 71.86579269142717,
+  "bootstrap_ci_median_sat_delta": [
+    NaN,
+    NaN
+  ],
+  "bootstrap_ci_median_lag_delta": [
+    NaN,
+    NaN
+  ],
+  "signflip_permutation_p_sat": NaN,
+  "phase_escalation_rate": 0.014285714285714285,
+  "delayed_or_collapse_share_left": 0.0,
+  "delayed_or_collapse_share_right": 0.014285714285714285,
+  "n_triggered_pairs": 0,
+  "median_sat_delta_triggered_only": NaN,
+  "n_left_no_trigger_right_trigger": 14,
+  "n_left_trigger_right_no_trigger": 0,
+  "trigger_rate_left": 0.0,
+  "trigger_rate_right": 0.2,
+  "trigger_transition_balance_right_minus_left": 0.2,
+  "median_sat_delta_with_no_trigger_remap": 0.0
+}

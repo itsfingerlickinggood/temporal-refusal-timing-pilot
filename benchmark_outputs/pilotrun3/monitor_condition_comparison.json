@@ -1,0 +1,32 @@
+{
+  "comparison": "s2c_cloaked vs s2c_monitor",
+  "interpret_as": "mitigation_claim",
+  "n_pairs": 56,
+  "median_sat_delta_right_minus_left": 0.0,
+  "share_sat_shift_positive": 0.14285714285714285,
+  "median_lag_delta_right_minus_left": 0.0,
+  "p90_lag_delta_right_minus_left": 0.0,
+  "mean_tsr_delta_right_minus_left": -0.008214285714285714,
+  "mean_utility_delta_right_minus_left": NaN,
+  "mean_latency_delta_right_minus_left": 4.291964801787409,
+  "bootstrap_ci_median_sat_delta": [
+    0.0,
+    0.0
+  ],
+  "bootstrap_ci_median_lag_delta": [
+    NaN,
+    NaN
+  ],
+  "signflip_permutation_p_sat": 1.0,
+  "phase_escalation_rate": 0.0,
+  "delayed_or_collapse_share_left": 0.017857142857142856,
+  "delayed_or_collapse_share_right": 0.0,
+  "n_triggered_pairs": 7,
+  "median_sat_delta_triggered_only": 0.0,
+  "n_left_no_trigger_right_trigger": 8,
+  "n_left_trigger_right_no_trigger": 2,
+  "trigger_rate_left": 0.16071428571428573,
+  "trigger_rate_right": 0.26785714285714285,
+  "trigger_transition_balance_right_minus_left": 0.10714285714285714,
+  "median_sat_delta_with_no_trigger_remap": 0.0
+}

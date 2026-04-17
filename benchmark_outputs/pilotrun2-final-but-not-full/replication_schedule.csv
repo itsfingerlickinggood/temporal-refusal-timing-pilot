@@ -1,0 +1,19 @@
+seed,model,status,note
+11,@cf/openai/gpt-oss-120b,completed_in_this_notebook,Fresh rerun required. Do not substitute resampling or synthetic jitter.
+11,@cf/nvidia/nemotron-3-120b-a12b,completed_in_this_notebook,Fresh rerun required. Do not substitute resampling or synthetic jitter.
+11,@cf/qwen/qwen3-30b-a3b-fp8,completed_in_this_notebook,Fresh rerun required. Do not substitute resampling or synthetic jitter.
+11,@cf/google/gemma-4-26b-a4b-it,completed_in_this_notebook,Fresh rerun required. Do not substitute resampling or synthetic jitter.
+11,@cf/zai-org/glm-4.7-flash,completed_in_this_notebook,Fresh rerun required. Do not substitute resampling or synthetic jitter.
+11,@cf/moonshotai/kimi-k2.5,completed_in_this_notebook,Fresh rerun required. Do not substitute resampling or synthetic jitter.
+22,@cf/openai/gpt-oss-120b,pending_fresh_run,Fresh rerun required. Do not substitute resampling or synthetic jitter.
+22,@cf/nvidia/nemotron-3-120b-a12b,pending_fresh_run,Fresh rerun required. Do not substitute resampling or synthetic jitter.
+22,@cf/qwen/qwen3-30b-a3b-fp8,pending_fresh_run,Fresh rerun required. Do not substitute resampling or synthetic jitter.
+22,@cf/google/gemma-4-26b-a4b-it,pending_fresh_run,Fresh rerun required. Do not substitute resampling or synthetic jitter.
+22,@cf/zai-org/glm-4.7-flash,pending_fresh_run,Fresh rerun required. Do not substitute resampling or synthetic jitter.
+22,@cf/moonshotai/kimi-k2.5,pending_fresh_run,Fresh rerun required. Do not substitute resampling or synthetic jitter.
+33,@cf/openai/gpt-oss-120b,pending_fresh_run,Fresh rerun required. Do not substitute resampling or synthetic jitter.
+33,@cf/nvidia/nemotron-3-120b-a12b,pending_fresh_run,Fresh rerun required. Do not substitute resampling or synthetic jitter.
+33,@cf/qwen/qwen3-30b-a3b-fp8,pending_fresh_run,Fresh rerun required. Do not substitute resampling or synthetic jitter.
+33,@cf/google/gemma-4-26b-a4b-it,pending_fresh_run,Fresh rerun required. Do not substitute resampling or synthetic jitter.
+33,@cf/zai-org/glm-4.7-flash,pending_fresh_run,Fresh rerun required. Do not substitute resampling or synthetic jitter.
+33,@cf/moonshotai/kimi-k2.5,pending_fresh_run,Fresh rerun required. Do not substitute resampling or synthetic jitter.

@@ -1,0 +1,7 @@
+{
+  "required_seed_model_pairs": 18,
+  "completed_seed_model_pairs": 6,
+  "fully_replicated": false,
+  "run_all_seeds_in_one_execution": false,
+  "rule": "Fresh reruns across the fixed prompt set and fixed model panel are required before any replication claim."
+}

@@ -1,0 +1,24 @@
+{
+  "comparison": "s2c_cloaked vs s2c_monitor",
+  "interpret_as": "mitigation_claim",
+  "n_pairs": 42,
+  "median_sat_delta_right_minus_left": 0.0,
+  "share_sat_shift_positive": 0.09523809523809523,
+  "median_lag_delta_right_minus_left": 2.0,
+  "p90_lag_delta_right_minus_left": 0.19999999999999996,
+  "mean_tsr_delta_right_minus_left": 0.0004761904761904763,
+  "mean_utility_delta_right_minus_left": NaN,
+  "mean_latency_delta_right_minus_left": -6.63297920238325,
+  "bootstrap_ci_median_sat_delta": [
+    0.0,
+    0.0
+  ],
+  "bootstrap_ci_median_lag_delta": [
+    NaN,
+    NaN
+  ],
+  "signflip_permutation_p_sat": 0.8672831792051987,
+  "phase_escalation_rate": 0.0,
+  "delayed_or_collapse_share_left": 0.0,
+  "delayed_or_collapse_share_right": 0.0
+}

@@ -1,0 +1,3 @@
+condition,n,n_models,median_irt,median_sat,median_lag,p90_lag,mean_tsr,mean_utility,mean_latency_s,delayed_or_collapse_share
+baseline_direct,27,3,-1.0,-1.0,,,0.8235518518518519,,9.493713788888677,0.0
+benign_monitor,3,3,-1.0,-1.0,,,0.003333333333333329,0.9166666666666666,15.039922133335494,0.0

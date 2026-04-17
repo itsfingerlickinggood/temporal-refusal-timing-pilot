@@ -1,0 +1,18 @@
+{
+  "has_source_dataset_column": true,
+  "harmful_rows_from_allowed_sources": 813,
+  "harmful_rows_total": 813,
+  "allowed_source_coverage": [
+    "advbench",
+    "harmbench",
+    "jbb-behaviors"
+  ],
+  "source_policy_ok": true,
+  "notes": [],
+  "benign_rows_total": 100,
+  "execution_profile": "pilot",
+  "full_count_gate_required": false,
+  "required_harmful_for_full": 180,
+  "required_benign_for_full": 60,
+  "full_count_gate_pass": true
+}

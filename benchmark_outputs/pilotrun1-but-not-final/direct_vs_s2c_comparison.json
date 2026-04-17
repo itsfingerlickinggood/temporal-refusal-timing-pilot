@@ -1,0 +1,24 @@
+{
+  "comparison": "baseline_direct vs s2c_cloaked",
+  "interpret_as": "primary_core_comparison",
+  "n_pairs": 0,
+  "median_sat_delta_right_minus_left": NaN,
+  "share_sat_shift_positive": NaN,
+  "median_lag_delta_right_minus_left": NaN,
+  "p90_lag_delta_right_minus_left": NaN,
+  "mean_tsr_delta_right_minus_left": NaN,
+  "mean_utility_delta_right_minus_left": NaN,
+  "mean_latency_delta_right_minus_left": NaN,
+  "bootstrap_ci_median_sat_delta": [
+    NaN,
+    NaN
+  ],
+  "bootstrap_ci_median_lag_delta": [
+    NaN,
+    NaN
+  ],
+  "signflip_permutation_p_sat": NaN,
+  "phase_escalation_rate": NaN,
+  "delayed_or_collapse_share_left": NaN,
+  "delayed_or_collapse_share_right": NaN
+}

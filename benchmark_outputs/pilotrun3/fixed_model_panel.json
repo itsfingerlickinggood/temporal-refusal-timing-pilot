@@ -1,0 +1,21 @@
+{
+  "full_panel_models": [
+    "@cf/openai/gpt-oss-120b",
+    "@cf/nvidia/nemotron-3-120b-a12b",
+    "@cf/qwen/qwen3-30b-a3b-fp8",
+    "@cf/google/gemma-4-26b-a4b-it",
+    "@cf/zai-org/glm-4.7-flash",
+    "@cf/moonshotai/kimi-k2.5"
+  ],
+  "active_models_this_run": [
+    "@cf/openai/gpt-oss-120b",
+    "@cf/nvidia/nemotron-3-120b-a12b",
+    "@cf/qwen/qwen3-30b-a3b-fp8",
+    "@cf/google/gemma-4-26b-a4b-it",
+    "@cf/zai-org/glm-4.7-flash",
+    "@cf/moonshotai/kimi-k2.5"
+  ],
+  "claim_ready_requires_full_panel": true,
+  "cloudflare_only_scope": true,
+  "external_validity_note": "Claims are bounded to the Cloudflare-accessible model panel in this run."
+}

@@ -1,0 +1,25 @@
+{
+  "comparison": "s2c_cloaked vs s2c_monitor",
+  "claim_ready": false,
+  "p90_reduction_fraction": 1.0,
+  "delayed_or_collapse_reduction_fraction": null,
+  "utility_drop_points": 0.03833333333333344,
+  "latency_overhead_fraction": -0.09862023135885187,
+  "monitor_trigger_rate": 0.0,
+  "monitor_trigger_precision": 0.0,
+  "monitor_trigger_recall": 0.0,
+  "tp_fp_fn": {
+    "tp": 0,
+    "fp": 2,
+    "fn": 48
+  },
+  "criterion_p90_reduction_ge_target": true,
+  "criterion_delayed_share_reduction_ge_target": false,
+  "criterion_utility_drop_le_target": true,
+  "criterion_latency_overhead_le_target": true,
+  "deployment_action": "defer_monitor_rollout_recalibrate_thresholds",
+  "status": "preliminary_pending_replication",
+  "judge_gate_pass": false,
+  "replication_gate_pass": false,
+  "source_traceability_gate_pass": true
+}

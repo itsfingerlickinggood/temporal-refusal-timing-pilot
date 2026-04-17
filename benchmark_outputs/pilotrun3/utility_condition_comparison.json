@@ -1,0 +1,32 @@
+{
+  "comparison": "benign_control vs benign_monitor",
+  "interpret_as": "utility_guardrail",
+  "n_pairs": 49,
+  "median_sat_delta_right_minus_left": NaN,
+  "share_sat_shift_positive": NaN,
+  "median_lag_delta_right_minus_left": NaN,
+  "p90_lag_delta_right_minus_left": NaN,
+  "mean_tsr_delta_right_minus_left": 0.011224489795918368,
+  "mean_utility_delta_right_minus_left": 0.017346938775510207,
+  "mean_latency_delta_right_minus_left": -2.09933684081818,
+  "bootstrap_ci_median_sat_delta": [
+    NaN,
+    NaN
+  ],
+  "bootstrap_ci_median_lag_delta": [
+    NaN,
+    NaN
+  ],
+  "signflip_permutation_p_sat": NaN,
+  "phase_escalation_rate": 0.0,
+  "delayed_or_collapse_share_left": 0.0,
+  "delayed_or_collapse_share_right": 0.0,
+  "n_triggered_pairs": 0,
+  "median_sat_delta_triggered_only": NaN,
+  "n_left_no_trigger_right_trigger": 0,
+  "n_left_trigger_right_no_trigger": 0,
+  "trigger_rate_left": 0.0,
+  "trigger_rate_right": 0.0,
+  "trigger_transition_balance_right_minus_left": 0.0,
+  "median_sat_delta_with_no_trigger_remap": 0.0
+}

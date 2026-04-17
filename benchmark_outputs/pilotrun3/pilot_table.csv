@@ -1,0 +1,12 @@
+Pilot metric,Value,Pass/flag rule
+Prompt source status,project_prompt_set,Must be project_prompt_set for claim-ready evidence
+Claim-ready run,False,False means pipeline validation only
+Cloudflare-only scope,True,Must be true for this environment-constrained protocol
+N paired core units,70,"Prefer within [20, 40] for pilot readout"
+"Median SAT timing delta (S2C-direct, both-trigger only)",,Positive preferred
+"Median SAT timing delta (S2C-staged, both-trigger only)",0.0,Positive preferred
+Trigger transition balance (S2C-direct),0.2,Positive means more no-trigger→trigger than reverse
+Median core SAT spread,1.0,Positive preferred
+p90 lag reduction fraction (monitor),,>= 0.20 for mitigation claim
+Utility drop points (benign monitor),-0.01734693877551008,<= 0.05
+Recommended deployment action,pipeline_validation_only_no_deployment_claim,Must be explicitly mapped from measured criteria

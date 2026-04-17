@@ -1,0 +1,10 @@
+{
+  "label": "support",
+  "n_pairs": 27,
+  "median_sat_spread": 0.0,
+  "share_positive_sat_spread": 0.0,
+  "bootstrap_ci_median_sat_spread": [
+    0.0,
+    0.0
+  ]
+}

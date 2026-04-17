@@ -25,7 +25,7 @@ Thumbs.db
 .vscode/
 
 # Generated experiment outputs
-benchmark_outputs/
+
 
 # Optional large raw data area
 datasets/raw/

@@ -1,0 +1,7 @@
+{
+  "grid_size": 9,
+  "base_theta_intent": 0.7,
+  "base_theta_safety": 0.7,
+  "direct_sign_match_rate": 1.0,
+  "stage_sign_match_rate": 1.0
+}

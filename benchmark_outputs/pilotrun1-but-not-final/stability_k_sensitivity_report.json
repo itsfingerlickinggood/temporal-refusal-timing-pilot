@@ -1,0 +1,21 @@
+{
+  "base_k": 2,
+  "rows": [
+    {
+      "stability_k": 1,
+      "median_sat_delta_direct_vs_s2c": NaN,
+      "sign_match": false
+    },
+    {
+      "stability_k": 2,
+      "median_sat_delta_direct_vs_s2c": NaN,
+      "sign_match": false
+    },
+    {
+      "stability_k": 3,
+      "median_sat_delta_direct_vs_s2c": NaN,
+      "sign_match": false
+    }
+  ],
+  "all_sign_match": false
+}

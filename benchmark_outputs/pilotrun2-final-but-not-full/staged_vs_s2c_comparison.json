@@ -1,0 +1,24 @@
+{
+  "comparison": "staged_direct vs s2c_cloaked",
+  "interpret_as": "structure_control_comparison",
+  "n_pairs": 24,
+  "median_sat_delta_right_minus_left": 0.0,
+  "share_sat_shift_positive": 0.125,
+  "median_lag_delta_right_minus_left": NaN,
+  "p90_lag_delta_right_minus_left": -2.0,
+  "mean_tsr_delta_right_minus_left": 0.00041666666666666675,
+  "mean_utility_delta_right_minus_left": NaN,
+  "mean_latency_delta_right_minus_left": 7.72250975417046,
+  "bootstrap_ci_median_sat_delta": [
+    0.0,
+    0.0
+  ],
+  "bootstrap_ci_median_lag_delta": [
+    NaN,
+    NaN
+  ],
+  "signflip_permutation_p_sat": 1.0,
+  "phase_escalation_rate": 0.0,
+  "delayed_or_collapse_share_left": 0.0,
+  "delayed_or_collapse_share_right": 0.0
+}

@@ -1,0 +1,17 @@
+{
+  "label": "support",
+  "n_pairs": 77,
+  "n_rows_with_2plus_triggered_conditions": 5,
+  "median_sat_spread": 1.0,
+  "share_positive_sat_spread": 0.06493506493506493,
+  "bootstrap_ci_median_sat_spread": [
+    1.0,
+    2.0
+  ],
+  "median_sat_spread_with_no_trigger_remap": 0.0,
+  "share_positive_sat_spread_with_no_trigger_remap": 0.3246753246753247,
+  "bootstrap_ci_median_sat_spread_with_no_trigger_remap": [
+    0.0,
+    0.0
+  ]
+}

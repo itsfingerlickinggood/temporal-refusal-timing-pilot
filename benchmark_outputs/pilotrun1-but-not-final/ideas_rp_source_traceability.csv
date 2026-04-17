@@ -1,0 +1,7 @@
+file,title,claim_anchor,support_level,note
+2601.02670v1.pdf,Multi-Turn Jailbreaking of Aligned LLMs via Lexical Anchor Tree Search,multi_turn_context_accumulation_changes_safety_outcomes,supported,Supports the claim that multi-turn conversational structure is a meaningful attack surface.
+2601.20903v1.pdf,ICON: Intent-Context Coupling for Efficient Multi-Turn Jailbreak Attack,context_congruent_trajectories_can_relax_safety_constraints,supported,Supports context-sensitive safety degradation under authoritative or congruent framing.
+2603.16192v1.pdf,Structured Semantic Cloaking for Jailbreak Attacks on Large Language Models,structured_semantic_cloaking_can_delay_or_weaken_safety_triggers,supported,Most directly supports the core stress condition used in this project.
+[project control],Staged Direct multi-turn control,staged_direct_control_for_turn_count_and_plain_decomposition,project_design_control,This is a project-side control family added to disambiguate turn count from cloaking structure.
+6261_Stealthy_Jailbreaking_Att.pdf,Stealthy Jailbreaking Attacks via Hyperbolic Hamiltonian Dynamics and Mobius Fusion,decomposition_based_stealth_attacks_exist_as_appendix_robustness_context,partial,Useful only as optional robustness context; not needed for the core claim.
+2603.03081v1.pdf,TAO-Attack: Toward Advanced Optimization-Based Jailbreak Attacks for Large Language Models,optimization_based_jailbreaks_exist_but_do_not_directly_ground_temporal_monitoring,partial,"Provides attack landscape context, not direct support for temporal lag measurement."

@@ -1,0 +1,10 @@
+theta_intent,theta_safety,median_sat_delta_direct_vs_s2c,median_sat_delta_stage_vs_s2c,sign_match_direct,sign_match_stage
+0.6499999999999999,0.6499999999999999,,0.0,False,True
+0.6499999999999999,0.7,,0.0,False,True
+0.6499999999999999,0.75,,0.0,False,True
+0.7,0.6499999999999999,,0.0,False,True
+0.7,0.7,,0.0,False,True
+0.7,0.75,,0.0,False,True
+0.75,0.6499999999999999,,0.0,False,True
+0.75,0.7,,0.0,False,True
+0.75,0.75,,0.0,False,True

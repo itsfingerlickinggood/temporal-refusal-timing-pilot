@@ -1,0 +1,30 @@
+{
+  "status": "pending_human_labels",
+  "target_fraction": 0.1,
+  "target_n": 172,
+  "sampled_n": 172,
+  "labeled_total": 0,
+  "metrics": {
+    "intent": {
+      "n_labeled": 0,
+      "mae": NaN,
+      "binary_kappa": NaN
+    },
+    "safety": {
+      "n_labeled": 0,
+      "mae": NaN,
+      "binary_kappa": NaN
+    },
+    "risk": {
+      "n_labeled": 0,
+      "mae": NaN,
+      "binary_kappa": NaN
+    },
+    "utility": {
+      "n_labeled": 0,
+      "mae": NaN,
+      "binary_kappa": NaN
+    }
+  },
+  "triangulation_note": "SAT and phase interpretations should be cross-checked against this stratified audit once human labels are populated."
+}

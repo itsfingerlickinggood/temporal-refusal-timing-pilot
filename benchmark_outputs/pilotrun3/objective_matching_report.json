@@ -1,0 +1,42 @@
+{
+  "core_conditions": [
+    "baseline_direct",
+    "staged_direct",
+    "s2c_cloaked"
+  ],
+  "support_conditions": [
+    "baseline_direct",
+    "s2c_cloaked",
+    "icon_contextual"
+  ],
+  "monitor_pair": [
+    "s2c_cloaked",
+    "s2c_monitor"
+  ],
+  "core_intersection_n_tasks": 13,
+  "support_raw_intersection_n_tasks": 9,
+  "support_intersection_n_tasks": 9,
+  "monitor_intersection_n_tasks": 16,
+  "pre_counts": {
+    "baseline_direct": 30,
+    "staged_direct": 23,
+    "s2c_cloaked": 16,
+    "icon_contextual": 12,
+    "lats_exploratory": 0,
+    "sja_exploratory": 0,
+    "s2c_monitor": 16,
+    "benign_control": 10,
+    "benign_monitor": 10
+  },
+  "post_counts": {
+    "baseline_direct": 13,
+    "staged_direct": 13,
+    "s2c_cloaked": 13,
+    "icon_contextual": 9,
+    "lats_exploratory": 0,
+    "sja_exploratory": 0,
+    "s2c_monitor": 16,
+    "benign_control": 10,
+    "benign_monitor": 10
+  }
+}

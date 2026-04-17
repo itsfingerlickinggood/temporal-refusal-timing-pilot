@@ -1,0 +1,23 @@
+{
+  "claim_ready": false,
+  "check_1_direct_vs_s2c_positive": false,
+  "check_2_staged_vs_s2c_positive": false,
+  "check_3_support_positive": false,
+  "check_4_core_spread_positive": true,
+  "check_5_support_spread_positive": true,
+  "main_claim_status": "preliminary_pending_human_audit",
+  "terminology_recommendation": "preliminary_do_not_claim",
+  "interpretation_rule": "If claim_ready is false, treat outputs as pipeline-validation artifacts only.",
+  "judge_gate_pass": false,
+  "replication_gate_required": true,
+  "replication_gate_pass": false,
+  "replication_required_seed_model_pairs": 18,
+  "replication_completed_seed_model_pairs": 6,
+  "replication_gate_note": "Full seed-model reruns are required before any claim-positive interpretation.",
+  "human_audit_status": "pending_human_labels",
+  "human_audit_labeled_total": 0,
+  "human_audit_gate_pass": false,
+  "source_traceability_gate_required": true,
+  "source_traceability_gate_pass": true,
+  "source_traceability_unsupported_rows": 0
+}

@@ -1,0 +1,50 @@
+{
+  "exact_match": {
+    "comparison": "baseline_direct vs s2c_cloaked",
+    "interpret_as": "irt_exact_match_subset",
+    "n_pairs": 42,
+    "median_sat_delta_right_minus_left": 0.0,
+    "share_sat_shift_positive": 0.19047619047619047,
+    "median_lag_delta_right_minus_left": NaN,
+    "p90_lag_delta_right_minus_left": NaN,
+    "mean_tsr_delta_right_minus_left": 0.027619047619047616,
+    "mean_utility_delta_right_minus_left": NaN,
+    "mean_latency_delta_right_minus_left": 59.88909337619372,
+    "bootstrap_ci_median_sat_delta": [
+      0.0,
+      0.0
+    ],
+    "bootstrap_ci_median_lag_delta": [
+      NaN,
+      NaN
+    ],
+    "signflip_permutation_p_sat": 0.006748312921769558,
+    "phase_escalation_rate": 0.0,
+    "delayed_or_collapse_share_left": 0.0,
+    "delayed_or_collapse_share_right": 0.0
+  },
+  "near_match": {
+    "comparison": "baseline_direct vs s2c_cloaked",
+    "interpret_as": "irt_near_match_subset",
+    "n_pairs": 42,
+    "median_sat_delta_right_minus_left": 0.0,
+    "share_sat_shift_positive": 0.19047619047619047,
+    "median_lag_delta_right_minus_left": NaN,
+    "p90_lag_delta_right_minus_left": NaN,
+    "mean_tsr_delta_right_minus_left": 0.027619047619047616,
+    "mean_utility_delta_right_minus_left": NaN,
+    "mean_latency_delta_right_minus_left": 59.88909337619372,
+    "bootstrap_ci_median_sat_delta": [
+      0.0,
+      0.0
+    ],
+    "bootstrap_ci_median_lag_delta": [
+      NaN,
+      NaN
+    ],
+    "signflip_permutation_p_sat": 0.008247938015496127,
+    "phase_escalation_rate": 0.0,
+    "delayed_or_collapse_share_left": 0.0,
+    "delayed_or_collapse_share_right": 0.0
+  }
+}

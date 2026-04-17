@@ -1,0 +1,56 @@
+{
+  "files_detected": [
+    "2601.02670v1.pdf",
+    "2601.20903v1.pdf",
+    "2603.03081v1.pdf",
+    "2603.16192v1.pdf",
+    "6261_Stealthy_Jailbreaking_Att.pdf"
+  ],
+  "rows": [
+    {
+      "file": "2601.02670v1.pdf",
+      "title": "Multi-Turn Jailbreaking of Aligned LLMs via Lexical Anchor Tree Search",
+      "claim_anchor": "multi_turn_context_accumulation_changes_safety_outcomes",
+      "support_level": "supported",
+      "note": "Supports the claim that multi-turn conversational structure is a meaningful attack surface."
+    },
+    {
+      "file": "2601.20903v1.pdf",
+      "title": "ICON: Intent-Context Coupling for Efficient Multi-Turn Jailbreak Attack",
+      "claim_anchor": "context_congruent_trajectories_can_relax_safety_constraints",
+      "support_level": "supported",
+      "note": "Supports context-sensitive safety degradation under authoritative or congruent framing."
+    },
+    {
+      "file": "2603.16192v1.pdf",
+      "title": "Structured Semantic Cloaking for Jailbreak Attacks on Large Language Models",
+      "claim_anchor": "structured_semantic_cloaking_can_delay_or_weaken_safety_triggers",
+      "support_level": "supported",
+      "note": "Most directly supports the core stress condition used in this project."
+    },
+    {
+      "file": "[project control]",
+      "title": "Staged Direct multi-turn control",
+      "claim_anchor": "staged_direct_control_for_turn_count_and_plain_decomposition",
+      "support_level": "project_design_control",
+      "note": "This is a project-side control family added to disambiguate turn count from cloaking structure."
+    },
+    {
+      "file": "6261_Stealthy_Jailbreaking_Att.pdf",
+      "title": "Stealthy Jailbreaking Attacks via Hyperbolic Hamiltonian Dynamics and Mobius Fusion",
+      "claim_anchor": "decomposition_based_stealth_attacks_exist_as_appendix_robustness_context",
+      "support_level": "partial",
+      "note": "Useful only as optional robustness context; not needed for the core claim."
+    },
+    {
+      "file": "2603.03081v1.pdf",
+      "title": "TAO-Attack: Toward Advanced Optimization-Based Jailbreak Attacks for Large Language Models",
+      "claim_anchor": "optimization_based_jailbreaks_exist_but_do_not_directly_ground_temporal_monitoring",
+      "support_level": "partial",
+      "note": "Provides attack landscape context, not direct support for temporal lag measurement."
+    }
+  ],
+  "source_traceability_gate_pass": true,
+  "unsupported_rows": 0,
+  "rule": "No manuscript claim is kept without an exact source mapping and support-level review."
+}

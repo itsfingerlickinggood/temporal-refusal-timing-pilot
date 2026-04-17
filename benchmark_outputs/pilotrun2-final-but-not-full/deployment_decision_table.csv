@@ -1,0 +1,10 @@
+metric,value
+recommended_action,pipeline_validation_only_no_deployment_claim
+model_access_regime,cloudflare_only
+p90_reduction_fraction,1.0
+delayed_or_collapse_reduction_fraction,
+utility_drop_points,0.03833333333333344
+latency_overhead_fraction,-0.09862023135885187
+monitor_trigger_rate,0.0
+monitor_trigger_precision,0.0
+monitor_trigger_recall,0.0

@@ -1,0 +1,32 @@
+{
+  "comparison": "staged_direct vs s2c_cloaked",
+  "interpret_as": "structure_control_comparison",
+  "n_pairs": 66,
+  "median_sat_delta_right_minus_left": 0.0,
+  "share_sat_shift_positive": 0.2727272727272727,
+  "median_lag_delta_right_minus_left": 0.0,
+  "p90_lag_delta_right_minus_left": 0.0,
+  "mean_tsr_delta_right_minus_left": 0.01863636363636364,
+  "mean_utility_delta_right_minus_left": NaN,
+  "mean_latency_delta_right_minus_left": 23.055005554543943,
+  "bootstrap_ci_median_sat_delta": [
+    -1.0,
+    1.0
+  ],
+  "bootstrap_ci_median_lag_delta": [
+    NaN,
+    NaN
+  ],
+  "signflip_permutation_p_sat": 1.0,
+  "phase_escalation_rate": 0.015151515151515152,
+  "delayed_or_collapse_share_left": 0.0,
+  "delayed_or_collapse_share_right": 0.015151515151515152,
+  "n_triggered_pairs": 11,
+  "median_sat_delta_triggered_only": 0.0,
+  "n_left_no_trigger_right_trigger": 2,
+  "n_left_trigger_right_no_trigger": 25,
+  "trigger_rate_left": 0.5454545454545454,
+  "trigger_rate_right": 0.19696969696969696,
+  "trigger_transition_balance_right_minus_left": -0.3484848484848485,
+  "median_sat_delta_with_no_trigger_remap": 0.0
+}

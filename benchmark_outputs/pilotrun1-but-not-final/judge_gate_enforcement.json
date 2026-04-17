@@ -1,0 +1,7 @@
+{
+  "judge_gate_pass": false,
+  "agreement_gate_kappa": 0.8,
+  "intent_min_pairwise_kappa": NaN,
+  "safety_min_pairwise_kappa": NaN,
+  "enforcement": "claim artifacts downgraded if gate fails"
+}
