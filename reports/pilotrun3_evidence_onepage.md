@@ -1,78 +1,59 @@
-# Pilot Evidence Snapshot (One Page)
+# Pilotrun3 One-Page Evidence (Direct Answer)
 
-Run: `benchmark_outputs/pilotrun3`
+Run analyzed: benchmark_outputs/pilotrun3
 
-## Bottom line
+## Q1) What did you find?
 
-- This pilot is **not claim-ready** yet.
-- Early signal is **directional but not confirmatory**.
-- Scaling up is valuable because current blockers are mostly **power + gate completion**, not a dead pipeline.
+We ran a full pilot pipeline using the project prompt set and the fixed Cloudflare model panel, with 70 paired core units.
 
-## What was tested
+Early directional findings:
+- Direct -> S2C trigger rate increased from 0.00 to 0.20.
+- No-trigger -> trigger transitions were 14, while trigger -> no-trigger transitions were 0.
+- Core timing heterogeneity appeared (median core SAT spread = 1.0 turn).
 
-- Prompt source: `project_prompt_set`
-- Scope: Cloudflare-only model panel
-- Pilot paired core units: **70**
-- Core comparisons: Direct vs S2C, Staged Direct vs S2C, plus support and monitor comparisons
+Practical monitor findings:
+- Trigger precision = 0.778.
+- Utility drop on benign traffic = -0.0173 (no observed utility harm).
+- Latency overhead = 0.058.
 
-## What we found (early signal)
+## Q2) What is the early signal?
 
-1. **Directional transition signal exists in Direct -> S2C**
-   - Trigger rate (left/direct): **0.00**
-   - Trigger rate (right/S2C): **0.20**
-   - No-trigger->trigger transitions: **14**
-   - Trigger->no-trigger transitions: **0**
-   - Transition balance: **+0.20**
+The early signal is that trajectory form changes safety behavior in a directional way (transition asymmetry and positive spread signal), but the key confirmatory SAT shift is not yet estimable in the most important contrast.
 
-2. **Within-objective timing heterogeneity appears in core spread**
-   - Median core SAT spread: **1.0 turn**
-   - Positive core spread share (triggered-only): **10.3%**
-   - Positive core spread share (no-trigger remap): **55.1%**
+Specifically:
+- Direct vs S2C both-trigger SAT delta is NaN (0 triggered pairs in that comparator).
+- Staged vs S2C both-trigger SAT delta is 0.0.
 
-3. **Monitor arm shows practical trade-off signal (but not deployment-ready)**
-   - Delayed/collapse reduction fraction: **1.00**
-   - Utility drop points (benign monitor): **-0.0173** (utility retained/improved)
-   - Latency overhead fraction: **0.058**
-   - Trigger precision: **0.778**
-   - Trigger recall: **0.123**
+So this is a real pilot signal, but still pre-confirmatory.
 
-## Why this is not yet claim-ready
+## Q3) What is the significance?
 
-1. **Primary SAT estimand is not identifiable in key contrast yet**
-   - Direct vs S2C both-trigger median SAT delta: **NaN** (0 triggered pairs in that comparator)
+Significance today is methodological, not claim-level:
+- The benchmark pipeline works end-to-end.
+- It produces consistent directional and operational outputs (timing + monitor trade-offs).
+- It also correctly blocks over-claiming through gates.
 
-2. **Judge robustness gate failed**
-   - intent min pairwise kappa: **0.121** (threshold: 0.8)
-   - safety min pairwise kappa: **0.375** (threshold: 0.8)
+Under the research plan evidence ladder, this run is still pipeline-validation stage, not a claim-positive stage.
 
-3. **Replication gate failed**
-   - completed seed-model pairs: **6 / 18**
+## Q4) Why is scaling up valuable?
 
-4. **Human audit gate pending**
-   - labeled total: **0**
+Scaling up is valuable because current blockers are exactly the kind that larger, fully gated runs can resolve:
+- Replication is incomplete (6/18 seed-model pairs).
+- Judge agreement gate failed (intent min kappa 0.121, safety min kappa 0.375; gate = 0.8).
+- Human audit labels are pending (0 labeled).
 
-## Why scaling up is valuable
+A full run can determine whether the directional pattern stabilizes into a robust effect or collapses under replication.
 
-- It can convert directional transition patterns into estimable, stable effects by increasing triggered-pair coverage.
-- It can determine whether monitor gains persist under full replication rather than one-seed partial completion.
-- It can separate real trajectory effects from judge instability by completing calibration + human adjudication.
-- It can resolve the current state: either confirm a robust benchmark signal or falsify the hypothesis cleanly.
+## Current status in one line
 
-## Immediate next-step decision test
+Promising early directional signal + functioning benchmark pipeline, but not claim-ready yet.
 
-Proceed to full-scale cycle only if all are met:
+## Evidence sources
 
-1. replication completes to **18/18** seed-model pairs,
-2. judge gate reaches acceptable agreement,
-3. human audit labels are populated,
-4. core estimands become non-NaN and directionally stable.
-
----
-
-## Evidence files
-
-- `benchmark_outputs/pilotrun3/claim_assessment.json`
-- `benchmark_outputs/pilotrun3/pilot_table.csv`
-- `benchmark_outputs/pilotrun3/monitor_success.json`
-- `benchmark_outputs/pilotrun3/judge_calibration_report.json`
-- `benchmark_outputs/pilotrun3/replication_readiness.json`
+- benchmark_outputs/pilotrun3/claim_assessment.json
+- benchmark_outputs/pilotrun3/pilot_table.csv
+- benchmark_outputs/pilotrun3/monitor_success.json
+- benchmark_outputs/pilotrun3/judge_calibration_report.json
+- benchmark_outputs/pilotrun3/replication_readiness.json
+- temporal_alignment_research_plan.txt (evidence ladder and downgrade rules)
+- temporal_alignment_hysteresis_experiment.ipynb (gate-enforcement logic)
